@@ -151,7 +151,8 @@ section.container {
 ----------------------------- */
 
 .count-section {
-    background-color: #DA9A29;
+    background-color: #FFC050;
+    /* background-color: #DA9A29; */
 }
 
 .items {
@@ -186,9 +187,9 @@ section.container {
 .highlights {
     display: flex;
     align-items: center;
-    height: 800px;
+    height: 900px;
     background-image: url(./images/highlights-bg.jpg);
-    background-position: center -80px;
+    background-position: center -50px;
     background-size: cover;
     background-repeat: no-repeat;
 }

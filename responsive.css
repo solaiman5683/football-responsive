@@ -2,6 +2,10 @@
      Mobile Responsive 
 -----------------------*/
 @media (max-width: 480px) {
+    .container {
+        width: 90%;
+    }
+
     .navbar {
         display: none;
     }
@@ -96,8 +100,15 @@
     }
 }
 
+/* -------------------
+    Tablet Responsive 
+-----------------------*/
 
 @media screen and (min-width: 481px) and (max-width: 768px) {
+    .container {
+        width: 90%;
+    }
+
     .navbar {
         display: none;
     }
@@ -139,6 +150,96 @@
     .item {
         width: 50%;
         margin: 10px auto;
+        justify-content: center;
+    }
+
+    .item .icons img {
+        width: 80px;
+        margin-right: 15px;
+    }
+
+    .item h2 {
+        font-size: 45px;
+        margin: 0;
+    }
+
+    .highlights {
+        height: 600px;
+        background-position: right top;
+        background-size: 250%;
+    }
+
+    .highlights .container {
+        width: 90%;
+        margin: 0 auto;
+    }
+
+    .highlights .left {
+        display: none;
+    }
+
+    .highlights .right {
+        width: 100%;
+        text-align: center;
+    }
+
+    .right h2 {
+        font-size: 2.5rem;
+    }
+
+    .right p {
+        font-size: 20px;
+        margin-bottom: 30px;
+    }
+
+    .logo img {
+        width: 380px;
+    }
+
+    .social-icons li {
+        Width: 25px;
+        Height: 25px;
+    }
+}
+
+/* -------------------------------
+    Small Screen Laptop Responsive 
+----------------------------------*/
+@media screen and (min-width: 769px) and (max-width: 1200px) {
+    .container {
+        width: 90%;
+    }
+
+    .navbar a {
+        padding: 10px;
+    }
+
+    .top-banner .left,
+    .top-banner .right {
+        width: 50%;
+    }
+
+    .left h1 {
+        font-size: 44px;
+    }
+
+    section.container {
+        margin: 50px auto;
+    }
+
+    .players {
+        grid-template-columns: repeat(2, 1fr);
+    }
+
+    .items {
+        flex-wrap: wrap;
+        padding: 50px;
+    }
+
+    .item {
+        width: 50%;
+        margin: 10px auto;
+        justify-content: center;
     }
 
     .item .icons img {
