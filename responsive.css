@@ -42,13 +42,11 @@
     .items {
         flex-wrap: wrap;
         justify-content: space-between;
-        padding: 50px;
     }
 
     .item {
-        width: 80%;
-        justify-content: space-evenly;
-        margin: 10px auto;
+        width: 100%;
+        justify-content: center;
     }
 
     .item .icons img {
