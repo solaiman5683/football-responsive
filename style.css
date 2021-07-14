@@ -144,16 +144,53 @@ section.container {
     color: #6C6C6C;
 }
 
+
+
+/* --------------------------
+    Count Section Styles
+----------------------------- */
+
+.count-section {
+    background-color: #DA9A29;
+}
+
+.items {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 100px 0;
+}
+
+.item {
+    display: flex;
+    align-items: center;
+}
+
+.item .icons img {
+    width: 100px;
+    margin-right: 15px;
+}
+
+.item h2 {
+    font-size: 40px;
+    margin: 0;
+}
+
+.item p {
+    margin: 0;
+}
+
 /* -----------------------------
     Highlights Section Style
 ------------------------------- */
 .highlights {
     display: flex;
     align-items: center;
-    height: 100vh;
+    height: 800px;
     background-image: url(./images/highlights-bg.jpg);
-    background-position: top center;
+    background-position: center -80px;
     background-size: cover;
+    background-repeat: no-repeat;
 }
 
 .highlights .container {
@@ -175,4 +212,55 @@ section.container {
 .right p {
     font-size: 1.5rem;
     margin-bottom: 40px;
+}
+
+
+
+/* --------------------------
+    Footer Section Styles
+----------------------------- */
+.footer {
+    margin: 65px auto;
+}
+
+.logo {
+    text-align: center;
+}
+
+.logo img {
+    width: 483.87px;
+}
+
+.social-icons {
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    padding: 0;
+    margin: 20px 0;
+}
+
+.social-icons li {
+    display: flex;
+    Width: 32px;
+    Height: 32px;
+    margin: 5px;
+    padding: 10px;
+    border-radius: 50%;
+    justify-content: center;
+    align-items: center;
+    background-color: #0b0d1710;
+}
+
+.social-icons li a {
+    font-size: 18px;
+    color: #969BAB;
+}
+
+.social-icons li:hover a {
+    color: #565656;
+}
+
+.footer p {
+    text-align: center;
+    font-size: 18px;
 }
