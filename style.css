@@ -4,6 +4,7 @@
 body {
     margin: 0;
     padding: 0;
+    background-color: #FEFEFE;
     font-family: 'Poppins', sans-serif;
 }
 
@@ -26,6 +27,12 @@ header {
     justify-content: space-between;
     align-items: center;
     padding: 42px 0;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    padding: 0;
 }
 
 .navbar a {
@@ -85,6 +92,10 @@ header {
     font-size: 64px;
 }
 
+.color-text {
+    color: #3DBAFD;
+}
+
 .watch-live {
     padding: 10px 24px;
 }
@@ -97,4 +108,71 @@ header {
 
 .watch-live:hover i {
     left: 6px;
+}
+
+/* --------------------------
+     Players Section Style
+--------------------------- */
+section.container {
+    margin: 100px auto;
+}
+
+.players {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 30px;
+}
+
+.player {
+    padding: 15px 15px 33px 15px;
+
+    background-color: #ffffff;
+    box-shadow: 0 0 10px #56565625;
+}
+
+.player img {
+    width: 100%;
+}
+
+.player h2 {
+    font-size: 28px;
+}
+
+.player p {
+    font-size: 16px;
+    line-height: 26px;
+    color: #6C6C6C;
+}
+
+/* -----------------------------
+    Highlights Section Style
+------------------------------- */
+.highlights {
+    display: flex;
+    align-items: center;
+    height: 100vh;
+    background-image: url(./images/highlights-bg.jpg);
+    background-position: top center;
+    background-size: cover;
+}
+
+.highlights .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: #ffffff;
+}
+
+.highlights .left,
+.highlights .right {
+    width: 45%;
+}
+
+.right h2 {
+    font-size: 3rem;
+}
+
+.right p {
+    font-size: 1.5rem;
+    margin-bottom: 40px;
 }
